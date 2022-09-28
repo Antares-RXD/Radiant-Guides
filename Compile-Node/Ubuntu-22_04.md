@@ -11,11 +11,13 @@ Small guide to compile the Radiant node and use its commands
 sudo apt-get install build-essential cmake git libboost-chrono-dev libboost-filesystem-dev libboost-test-dev libboost-thread-dev libevent-dev libminiupnpc-dev libssl-dev libzmq3-dev help2man ninja-build python3 libdb-dev libdb++-dev
 ```
 ![](https://raw.githubusercontent.com/Antares-ES/Radiant-Guides/main/Compile-Node/img/01-UBUNTU-22_04_install-dependencies.png)
+
 **Download radiant node source code to compile**
 ```
 git clone https://github.com/radiantblockchain/radiant-node.git
 ```
 ![](https://raw.githubusercontent.com/Antares-ES/Radiant-Guides/main/Compile-Node/img/02-UBUNTU-22_04_download-node-github.png)
+
 **Once you have downloaded the source code, enter the generated folder, create the build folder and enter inside it**
 ```
 cd radiant-node/
@@ -37,6 +39,7 @@ cd build
 ninja
 ```
 ![](https://raw.githubusercontent.com/Antares-ES/Radiant-Guides/main/Compile-Node/img/05-UBUNTU-22_04_compile.png)
+
 **The result will be generated in the src folder**
 src/radiantd	
 src/radiantd
@@ -49,6 +52,7 @@ src/radiant-wallet
 sudo cp src/radiant* /usr/local/bin/
 ```
 ![](https://raw.githubusercontent.com/Antares-ES/Radiant-Guides/main/Compile-Node/img/06-UBUNTU-22_04_copy-build-bin.png)
+
 --------------------------------------------------------------------------------------------
 
 ### **CREATE INITIAL CONFIGURATION FILE**
@@ -57,6 +61,7 @@ mkdir ~/.radiant
 touch ~/.radiant/radiant.conf
 ```
 ![](https://raw.githubusercontent.com/Antares-ES/Radiant-Guides/main/Compile-Node/img/07-UBUNTU-22_04_create-config-node.png)
+
 **Copy main data to the configuration file**
 ```
 cat > ~/.radiant/radiant.conf << EOL
@@ -72,6 +77,7 @@ maxconnections=16
 EOL
 ```
 ![](https://raw.githubusercontent.com/Antares-ES/Radiant-Guides/main/Compile-Node/img/08-UBUNTU-22_04_add-info-config-node.png)
+
 --------------------------------------------------------------------------------------------
 
 ### **USEFUL COMMANDS**
@@ -87,4 +93,5 @@ EOL
 - **WALLET ADDRESSES:** `radiant-cli listreceivedbyaddress 1 true`
 
 ### **START NODE**
+
 ![](https://raw.githubusercontent.com/Antares-ES/Radiant-Guides/main/Compile-Node/img/09-UBUNTU-22_04_start-node.png)
