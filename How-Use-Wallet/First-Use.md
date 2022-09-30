@@ -10,6 +10,7 @@ For this guide I recommend the portable version because it does not require inst
 The first time it is run, it will be necessary to accept the Windows warning. It is also possible that the antivirus says that it may have a Trojan, but it is a false-positive.
 
 ![](https://raw.githubusercontent.com/Antares-ES/Radiant-Guides/main/How-Use-Wallet/img/02-FIRST-STEPS.png)
+
 And click in Run anyway
 
 ![](https://raw.githubusercontent.com/Antares-ES/Radiant-Guides/main/How-Use-Wallet/img/03-FIRST-STEPS.png)
@@ -55,11 +56,14 @@ And the last step is to generate a password that encrypts the wallet.
 | 4. Addresses | The first 20 seed directions. All are valid for receiving and sending |
 | 5. Coins | The UTXO of each reception |
 | 6. Contacts | Addresses targeted for reuse |
+
 ![](https://raw.githubusercontent.com/Antares-ES/Radiant-Guides/main/How-Use-Wallet/img/11-ELECTRON-OPTIONS.png)
 
 1. Transaction date and status
 2. Amount of RXD of the transaction
 3. Overall balance of the transaction
+
+
 ![](https://raw.githubusercontent.com/Antares-ES/Radiant-Guides/main/How-Use-Wallet/img/12-WALLET-HISTORY.png)
 
 Example to send
@@ -89,7 +93,6 @@ In history appears this transaction as shown in the image and the transaction wi
 Address not used to receive new funds.
 1. his address will always be one that has never received funds.
 2. Name to be added to the address
-
 
 ![](https://raw.githubusercontent.com/Antares-ES/Radiant-Guides/main/How-Use-Wallet/img/14-WALLET-RECIVE.png)
 
