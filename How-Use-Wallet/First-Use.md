@@ -88,6 +88,8 @@ In history appears this transaction as shown in the image and the transaction wi
 
 1. Coin input
 2. Coin output
+
+
 ![](https://raw.githubusercontent.com/Antares-ES/Radiant-Guides/main/How-Use-Wallet/img/13C-WALLET-SEND-STATUS.png)
 
 Address not used to receive new funds.
