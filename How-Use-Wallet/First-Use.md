@@ -128,6 +128,7 @@ electrumx.radiant.ovh 50012
 electrumx.radiantexplorer.com 50012
 electrumx2.radiantexplorer.com 50012
 electrumx.radiantblockchain.org 50012
+electrumx.radiant4people.com 50012
 ```
 ## OFFICIAL CHANNELS FOR RADIANT
 - **Telegram: https://t.me/RadiantBlockchain**
