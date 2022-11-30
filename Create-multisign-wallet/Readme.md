@@ -1,4 +1,4 @@
-# ELECTRON RADIANT WALLET
+# MULTISIGN WITH ELECTRON RADIANT WALLET
 ## _Create multisign with 3 wallets and 2 need signers_
 
 One of the new features of **ZEUS** and Electron Wallet 0.1.3 is the ability to use multi-signature wallets. Here is a basic process of its use.
