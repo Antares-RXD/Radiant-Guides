@@ -129,6 +129,7 @@ And this is the process for multisigning in Radiant from Electron-Wallet 0.1.3
 | Plugin | README |
 | ------ | ------ |
 | Web | [https://radiantblockchain.org](https://radiantblockchain.org) |
+| Electron-Wallet | [https://github.com/RadiantBlockchain/electron-radiant/releases](https://github.com/RadiantBlockchain/electron-radiant/releases) |
 | Medium | [https://medium.com/@RadiantLayerOne](https://medium.com/@RadiantLayerOne) |
 | Github | [https://github.com/RadiantBlockchain](https://github.com/RadiantBlockchain) |
 | Twitter | [https://twitter.com/RadiantLayerOne](https://twitter.com/RadiantLayerOne) |
